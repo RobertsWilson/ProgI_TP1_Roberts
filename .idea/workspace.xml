@@ -5,22 +5,20 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8047c3f9-935e-4c32-9d06-71c632527e40" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/checkstyle-idea.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ProgI_TP_Roberts.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/model/Duenio.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/model/Gato.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/model/Mascota.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/model/Perro.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/model/Servicio.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/model/Servicios.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/model/TipoServicio.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/model/Turno.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/model/CortePelo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/model/LimpiezaOidos.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/model/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/model/ServicioComboCompleto.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/model/Duenio.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/model/Duenio.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/model/Gato.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/model/Gato.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/model/Mascota.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/model/Mascota.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/model/Perro.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/model/Perro.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/model/Servicio.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/model/Servicio.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/model/Servicios.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/model/Banio.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/model/TipoServicio.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/model/Turno.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/model/Turno.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -39,9 +37,24 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "lastFilter": {
+    "state": "OPEN",
+    "assignee": "RobertsWilson"
+  }
+}]]></component>
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "https://github.com/RobertsWilson/ProgI_TP1_Roberts.git",
+    "accountId": "70df1921-e596-49bd-a664-797ef86baebe"
+  }
+}]]></component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "associatedIndex": 4
+}]]></component>
   <component name="ProjectId" id="2y6iIIGARZ6qiz9yjxcLSfR1qeD" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -52,9 +65,13 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Application.Main.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true"
+    "RunOnceActivity.git.unshallow": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "git-widget-placeholder": "master",
+    "kotlin-language-version-configured": "true"
   }
 }]]></component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />

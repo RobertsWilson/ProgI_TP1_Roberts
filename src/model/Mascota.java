@@ -1,19 +1,29 @@
 package model;
 
+import java.util.Objects;
+import java.util.logging.Logger;
+
+
 public abstract class Mascota {
 
-  private String nombre;
-  private int edad;
-  private String raza;
-  private String comportamiento;
-  private final String ID="";
+  Logger logger = Logger.getLogger(getClass().getName());
 
+  protected String nombre;
+  protected int edad;
+  protected String raza;
+  protected String comportamiento;
+  protected final String id;
 
-  public Mascota() {
+  protected Mascota(String nombre, int edad, String raza, String comportamiento, String id) {
     this.nombre = nombre;
     this.edad = edad;
     this.raza = raza;
     this.comportamiento = comportamiento;
+    this.id = id;
+  }
+
+  public String getID() {
+    return id;
   }
 
   public String getNombre() {
@@ -48,11 +58,33 @@ public abstract class Mascota {
     this.comportamiento = comportamiento;
   }
 
-  public String getID() {
-    return ID;
+  @Override
+  public boolean equals(Object o) {
+    if (o == null || getClass() != o.getClass()) return false;
+    Mascota mascota = (Mascota) o;
+    return edad == mascota.edad && Objects.equals(nombre, mascota.nombre) && Objects.equals(raza, mascota.raza) && Objects.equals(comportamiento, mascota.comportamiento) && Objects.equals(id, mascota.id);
   }
 
-  public abstract void mostrarFicha();
+  @Override
+  public int hashCode() {
+    return Objects.hash(nombre, edad, raza, comportamiento, id);
+  }
+
+  public void mostrarFicha() {
+    logger.info(toString());
+  }
+
   public abstract String tipoMascota();
 
+
+  @Override
+  public String toString() {
+    return "Mascota{" +
+            "nombre='" + nombre + '\'' +
+            ", edad=" + edad +
+            ", raza='" + raza + '\'' +
+            ", comportamiento='" + comportamiento + '\'' +
+            ", ID='" + id + '\'' +
+            '}';
+  }
 }

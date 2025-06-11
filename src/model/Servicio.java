@@ -1,9 +1,7 @@
 package model;
 
 public interface Servicio {
-
   void aplicarServicio();
-
-  double calcularPrecio();
-
+  double calcularPrecio(Mascota mascota);
 }
+
