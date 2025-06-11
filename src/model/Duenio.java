@@ -1,6 +1,7 @@
 package model;
 
 import java.util.ArrayList;
+import java.util.List;
 import java.util.Objects;
 import java.util.logging.Logger;
 
@@ -46,7 +47,7 @@ public class Duenio {
     this.telefono = telefono;
   }
 
-  public ArrayList<Mascota> getMascotas() {
+  public List<Mascota> getMascotas() {
     return mascotas;
   }
 

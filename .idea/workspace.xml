@@ -4,21 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8047c3f9-935e-4c32-9d06-71c632527e40" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/model/CortePelo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/model/LimpiezaOidos.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/model/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/model/ServicioComboCompleto.java" afterDir="false" />
+    <list default="true" id="8047c3f9-935e-4c32-9d06-71c632527e40" name="Changes" comment="Sistema Gestion perruqueria">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/model/Duenio.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/model/Duenio.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/model/Gato.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/model/Gato.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/model/Mascota.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/model/Mascota.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/model/Perro.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/model/Perro.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/model/Servicio.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/model/Servicio.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/model/Servicios.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/model/Banio.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/model/TipoServicio.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/model/Turno.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/model/Turno.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/model/ServicioComboCompleto.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/model/ServicioComboCompleto.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -70,6 +59,7 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.git.unshallow": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "SONARLINT_PRECOMMIT_ANALYSIS": "true",
     "git-widget-placeholder": "master",
     "kotlin-language-version-configured": "true"
   }
@@ -83,6 +73,19 @@
       <option name="presentableId" value="Default" />
       <updated>1749161348644</updated>
     </task>
+    <task id="LOCAL-00001" summary="Sistema Gestion perruqueria">
+      <option name="closed" value="true" />
+      <created>1749611883090</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1749611883090</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Sistema Gestion perruqueria" />
+    <option name="LAST_COMMIT_MESSAGE" value="Sistema Gestion perruqueria" />
   </component>
 </project>

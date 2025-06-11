@@ -2,9 +2,9 @@ package model;
 
 public class ServicioComboCompleto implements Servicio{
 
-    private Banio banio= new Banio();
-    private CortePelo cortePelo = new CortePelo();
-    private LimpiezaOidos limpiezaOidos = new LimpiezaOidos();
+    private final Banio banio= new Banio();
+    private final CortePelo cortePelo = new CortePelo();
+    private final LimpiezaOidos limpiezaOidos = new LimpiezaOidos();
 
     @Override
     public void aplicarServicio() {
