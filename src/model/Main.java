@@ -26,7 +26,7 @@ public class Main {
     juancito.agregarMascota(toby);
     juancito.agregarMascota(siames);
     //juancito.agregarMascota(toby2);
-    juancito.mostrarMascotas();
+    //juancito.mostrarMascotas();
 
 
     Servicio banio = new Banio();
