@@ -4,10 +4,21 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8047c3f9-935e-4c32-9d06-71c632527e40" name="Changes" comment="Sistema Gestion perruqueria">
+    <list default="true" id="8047c3f9-935e-4c32-9d06-71c632527e40" name="Changes" comment="arreglitos">
+      <change afterPath="$PROJECT_DIR$/src/model/Tamanio.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/utils/LoggerConfig.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/model/Banio.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/model/Banio.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/model/CortePelo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/model/CortePelo.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/model/Duenio.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/model/Duenio.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/model/Gato.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/model/Gato.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/model/LimpiezaOidos.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/model/LimpiezaOidos.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/model/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/model/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/model/Mascota.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/model/Mascota.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/model/Perro.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/model/Perro.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/model/Servicio.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/model/Servicio.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/model/ServicioComboCompleto.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/model/ServicioComboCompleto.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/model/Turno.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/model/Turno.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -26,24 +37,24 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
-  "lastFilter": {
-    "state": "OPEN",
-    "assignee": "RobertsWilson"
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;RobertsWilson&quot;
   }
-}]]></component>
-  <component name="GithubPullRequestsUISettings"><![CDATA[{
-  "selectedUrlAndAccountId": {
-    "url": "https://github.com/RobertsWilson/ProgI_TP1_Roberts.git",
-    "accountId": "70df1921-e596-49bd-a664-797ef86baebe"
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/RobertsWilson/ProgI_TP1_Roberts.git&quot;,
+    &quot;accountId&quot;: &quot;70df1921-e596-49bd-a664-797ef86baebe&quot;
   }
-}]]></component>
+}</component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 4
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 4
+}</component>
   <component name="ProjectId" id="2y6iIIGARZ6qiz9yjxcLSfR1qeD" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -52,18 +63,19 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Application.Main.executor": "Run",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "SONARLINT_PRECOMMIT_ANALYSIS": "true",
-    "git-widget-placeholder": "master",
-    "kotlin-language-version-configured": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Application.Main.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;SONARLINT_PRECOMMIT_ANALYSIS&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;
   }
-}]]></component>
+}</component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -81,11 +93,20 @@
       <option name="project" value="LOCAL" />
       <updated>1749611883090</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="arreglitos">
+      <option name="closed" value="true" />
+      <created>1749612502318</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1749612502318</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Sistema Gestion perruqueria" />
-    <option name="LAST_COMMIT_MESSAGE" value="Sistema Gestion perruqueria" />
+    <MESSAGE value="arreglitos" />
+    <option name="LAST_COMMIT_MESSAGE" value="arreglitos" />
   </component>
 </project>

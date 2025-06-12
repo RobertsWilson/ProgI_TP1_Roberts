@@ -1,12 +1,13 @@
 package model;
 
-import java.util.logging.Logger;
-
+/**
+ * Clase perro, una clase que hereda de Mascota.
+ */
 public class Perro extends Mascota {
-  Logger logger = Logger.getLogger(getClass().getName());
 
-  public Perro(String nombre, int edad, String raza, String comportamiento, String id) {
-    super(nombre, edad, raza, comportamiento, id);
+  public Perro(String nombre, int edad, String raza, String comportamiento,
+               Tamanio tamanio, String id) {
+    super(nombre, edad, raza, comportamiento, tamanio, id);
   }
 
   @Override

@@ -5,18 +5,24 @@ import java.util.List;
 import java.util.Objects;
 import java.util.logging.Logger;
 
+/**
+ * Representa un dueño en la peluqueria MascotasApp.
+ */
 public class Duenio {
   Logger logger = Logger.getLogger(getClass().getName());
 
   private String nombre;
   private String telefono;
-  private ArrayList<Mascota> mascotas = new ArrayList<>();
+  private List<Mascota> mascotas = new ArrayList<>();
 
   public Duenio(String nombre, String telefono) {
     this.nombre = nombre;
     this.telefono = telefono;
   }
 
+  /**
+   * Es una funcion para asignar mascotas a un dueño.
+   */
   public void agregarMascota(Mascota m) {
     if (mascotas.size() < 4) {
       mascotas.add(m);
@@ -25,6 +31,9 @@ public class Duenio {
     }
   }
 
+  /**
+   * Esto en un metodo para listar todas las mascotas de un dueño en particular.
+   */
   public void mostrarMascotas() {
     for (Mascota m : mascotas) {
       m.mostrarFicha();
@@ -53,9 +62,11 @@ public class Duenio {
 
   @Override
   public boolean equals(Object o) {
-    if (o == null || getClass() != o.getClass()) return false;
+    if (o == null || getClass() != o.getClass()) {
+      return false;
+    }
     Duenio duenio = (Duenio) o;
-    return Objects.equals(nombre, duenio.nombre) && Objects.equals(telefono, duenio.telefono) && Objects.equals(mascotas, duenio.mascotas);
+    return Objects.equals(nombre, duenio.nombre) && Objects.equals(mascotas, duenio.mascotas);
   }
 
   @Override
@@ -65,10 +76,14 @@ public class Duenio {
 
   @Override
   public String toString() {
-    return "Duenio{" +
-            "nombre='" + nombre + '\'' +
-            ", telefono='" + telefono + '\'' +
-            ", mascotas=" + mascotas +
+    return "Duenio{"
+            +
+            "nombre='" + nombre + '\''
+            +
+            ", telefono='" + telefono + '\''
+            +
+            ", mascotas=" + mascotas
+            +
             '}';
   }
 }

@@ -1,9 +1,13 @@
 package model;
 
-public class Gato extends Mascota{
+/**
+ * "Gato" representa una clase que hereda de la clase abstracta "Mascota".
+ */
+public class Gato extends Mascota {
 
-  public Gato(String nombre, int edad, String raza, String comportamiento, String id) {
-    super(nombre, edad, raza, comportamiento, id);
+  public Gato(String nombre, int edad, String raza, String comportamiento,
+              Tamanio tamanio, String id) {
+    super(nombre, edad, raza, comportamiento, tamanio, id);
   }
 
   @Override

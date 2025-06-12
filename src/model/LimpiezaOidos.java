@@ -2,19 +2,35 @@ package model;
 
 import java.util.logging.Logger;
 
-public class LimpiezaOidos implements Servicio{
-    Logger logger = Logger.getLogger(getClass().getName());
+/**
+ * Limpieza de Oidos es un servicio que ofrece la peluqueria.
+ */
+public class LimpiezaOidos implements Servicio {
+  Logger logger = Logger.getLogger(getClass().getName());
 
-    @Override
+  @Override
     public void aplicarServicio() {
-        logger.info("Aplicando Limpieza de Oidos");
+    logger.info("Limpieza de Oidos");
 
-    }
+  }
 
-    @Override
+  @Override
     public double calcularPrecio(Mascota mascota) {
-        return mascota.tipoMascota().equals("Perro") ? 700 : 600;
+    double base = 0;
+    if (mascota instanceof Perro) {
+      base = 700;
+    } else if (mascota instanceof Gato) {
+      base = 600;
     }
+    switch (mascota.getTamanio()) {
+      case PEQUENO -> base *= 1;
+      case MEDIANO -> base *= 1.2;
+      case GRANDE -> base *= 1.5;
+      default -> base *= 1;
+    }
+
+    return base;
+  }
 }
 
 
